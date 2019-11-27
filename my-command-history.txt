@@ -1,0 +1,137 @@
+    1  sudo blkid
+    2  ls /dev
+    3  fdisk /dev/sdb
+    4  sudo fdisk /dev/sdb
+    5  clear
+    6  ls /dev
+    7  sudo mkfs.ext4 /dev/sdb1 
+    8  sudo mkfs.ext4 /dev/sdb2 
+    9  clear
+   10  mkdir CIT173_Lab5
+   11  sudo df -T
+   12  udevadm info -q all -n /dev/sda
+   13  sudo mount /dev/sdb1 /mnt/data
+   14  sudo  mount /dev/sd1 /mnt/data
+   15  mount
+   16  clear
+   17  ls /etc/mnt
+   18  ls /ect
+   19  cd etc
+   20  ls /mnt
+   21  ls /dev
+   22  sudo mount /dev/sdb1 /mnt/data
+   23  sudo mount /mnt/data
+   24  man mount
+   25  clear
+   26  sudo mount /mnt/data
+   27  sudo mount /data
+   28  sudo vi /etc/fstab
+   29  /dev
+   30  ls /dev
+   31  ls /sdb1
+   32  cat sdb1
+   33  clear
+   34  mount 
+   35  df
+   36  cd /etc/mnt
+   37  sudo mkdir /mnt/data
+   38  sudo mkdir /mnt/backup
+   39  sudo  mount /dev/sd1 /mnt/data
+   40  sudo  mount /dev/sdb1 /mnt/data
+   41  sudo  mount /dev/sdb2 /mnt/backup
+   42  clear
+   43  sudo apt-get nano
+   44  clear
+   45   udevadm info -q all -n /dev/sda
+   46  clear
+   47  sudo df -T 
+   48  clear
+   49  cd mnt
+   50  cd/mnt
+   51  cd /dev/mnt
+   52  ls /mnt
+   53  cat data
+   54  cd /data
+   55  ls data
+   56  ls /data
+   57  cd /clear
+   58  clear
+   59  cd /data
+   60  sudo -i
+   61  sudo cd /mnt
+   62  su cd /mnt
+   63  sudo -i
+   64  sudo blkid
+   65  sudo vi /etc/fstab
+   66  mount -a
+   67  sudo mount -a
+   68  mount
+   69  df
+   70  sudo vi /etc/fstab
+   71  reboot
+   72  mount
+   73  mount > ~/CIT173_Lab5/my-mounts.txt
+   74  ls CIT173_Lab5
+   75  cd CIT173_Lab5
+   76  cat my-mounts.txt 
+   77  clear
+   78  cd ..
+   79  cp  /etc/fstab ~/CIT173_Lab5/my-fstab.txt
+   80  cd CIT173_Lab5
+   81  cat my-fstab.txt 
+   82  clear
+   83  cd ..
+   84  man dd
+   85  dd if=/dev/random of=data_file1.dat bs=1KB
+   86  cat data_file1.dat 
+   87  rm data_file1.dat 
+   88  dd if=/dev/random of=data_file1.dat bs=1K
+   89  rm data_file1.dat 
+   90  man dd
+   91  dd if=/dev/random of=data_file1.dat bs=KB
+   92  rm data_file1.dat 
+   93  dd if=/dev/random of=data_file1.dat bs=1000
+   94  rm data_file1.dat 
+   95  dd if=/dev/random of=data_file1.dat bs=1KB count=1
+   96  rm data_file1.dat 
+   97  dd if=/dev/random of=data_file1.dat bs=1KB count=10
+   98  rm data_file1.dat 
+   99  dd if=/dev/random of=data_file1.dat bs=1KB count=12
+  100  rm data_file1.dat 
+  101  dd if=/dev/random of=data_file1.dat bs=1KB count=13
+  102  cat data_file1.dat 
+  103  clear
+  104  ls
+  105  mv data_file1.dat ~/dev/mnt/data
+  106  cd /dev
+  107  ls
+  108  cd / mnt
+  109  cd /mnt
+  110  ls
+  111  pwd
+  112  mv data_file1.dat ~/mnt/data
+  113  cd ..
+  114  ls
+  115  cd ..
+  116  ls
+  117  mv data_file1.dat ~/mnt/data
+  118  clear
+  119  ls
+  120  cd home
+  121  ls
+  122  cd tmp
+  123  cd ..
+  124  ls
+  125  cd tmp
+  126  ls
+  127  cd usr
+  128  cd ..
+  129  cd usr
+  130  ls
+  131  pwd
+  132  cd ..
+  133  clear
+  134  pwd
+  135  sudo -1
+  136  sudo -i
+  137  history > my-command-history.txt

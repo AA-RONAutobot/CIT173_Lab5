@@ -1,0 +1,17 @@
+/proc/version   Linux version 5.0.9-301.fc30.x86_64
+
+/proc/cpuinfo   Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz  cpu cores	: 1  cache size	: 4096 KB
+
+
+/proc/meminfo   MemTotal:        2013852 kB
+
+/proc/3435/limits               Max stack size            8388608 
+
+/proc/loadavg                  0.05 0.01 0.00 1/449 6588 = 0.00 in 15 min
+
+/proc/pid/status               nonvoluntary_ctxt_switches:	1455
+
+/proc/uptime                   25988.19 25254.98
+
+/proc/fb                       0 svgadrmfb
+

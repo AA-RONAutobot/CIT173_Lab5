@@ -1,0 +1,17 @@
+
+
+#
+# /etc/fstab
+# Created by anaconda on Fri Nov 15 18:49:22 2019
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk/'.
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info.
+#
+# After editing this file, run 'systemctl daemon-reload' to update systemd
+# units generated from this file.
+#
+/dev/mapper/fedora_localhost--live-root /                       ext4    defaults        1 1
+UUID=65736954-d55c-4f87-b987-ecf1b2950a72 /boot                   ext4    defaults        1 2
+/dev/mapper/fedora_localhost--live-swap none                    swap    defaults        0 0
+UUID=53f1289c-45d6-4bf7-8956-ce7a7a1dfd1d    /mnt/data         ext4     defaults        0 0
+UUID=9229f99d-bc24-49cb-989a-fb292365f572    /mnt/backup       ext4     defaults        0 0

@@ -1,0 +1,1 @@
+aaron@localhost CIT173_Lab5]$ input1::capslock]# cat brightness ' 1 
